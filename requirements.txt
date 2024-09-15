@@ -1,0 +1,7 @@
+numpy
+pandas
+openai
+streamlit
+python-dotenv
+crewai
+tavily-python
