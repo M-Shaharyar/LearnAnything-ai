@@ -239,7 +239,8 @@ if st.session_state.web_quiz_started and 'web_quiz_data' in st.session_state:
     correct_answer = question_item.answer
     if st.session_state.web_selected_option is None:
         st.write("No option is selected (First click on the option after confirmation, click on submit)")
-    
+    else:
+        st.write("One option is selected. Now click on Submit")
 
     if st.session_state.web_answer_submitted:
         for option in options:
